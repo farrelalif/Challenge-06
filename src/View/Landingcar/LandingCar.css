@@ -1,0 +1,34 @@
+.backgroundpage
+{
+    width: 100%;
+    height: 60%;
+    background-color: #F1F3FF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.isi
+{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 300px;
+}
+
+.bg-car
+{
+    flex: 1;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.text
+{
+    padding-right: 150px ;
+}
+
+

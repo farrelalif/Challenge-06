@@ -1,0 +1,44 @@
+.container-login
+{
+    display: flex;
+    flex-direction: row;
+    min-height: 98vh;
+}
+
+.gbrMobil
+{
+    background-image: url('../../Assets/Img/gambarMoobil.png');
+    display: flex;
+    flex: auto;
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    background-attachment: fixed;
+}
+
+.field-login
+{
+    width: 30%;
+    padding-left: 100px;
+    padding-top: 250px;
+}
+
+.inputlogin[type=text], input[type=password]
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.buttonlogin
+{
+    width: 80%;
+    background-color: #0D28A6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
